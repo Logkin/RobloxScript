@@ -1,0 +1,137 @@
+-- UI = https://xheptcofficial.gitbook.io/kavo-library/
+--Tutorial = https://www.youtube.com/watch?v=4QDcu6CivHQ
+repeat wait() until game:IsLoaded()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/sDXcYFhR", true))()
+
+
+local j = 0
+local playerName = game.Players.LocalPlayer.Name
+
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+
+
+local Window = Library.CreateLib("Tropical Resort Tycoon Infinite Money", "Ocean")
+
+
+local autofarm = Window:NewTab("Unlimited Money")
+local teleporttab = Window:NewTab("Teleport Obby")
+local playertab = Window:NewTab("Player")
+local tptab = Window:NewTab("Teleport")
+
+local autofarmsection = autofarm:NewSection("This will give you Unlimited Money")
+local teleportobbysection = teleporttab:NewSection("This will teleport you to TeleportObbySection")
+local playersection = playertab:NewSection("Change player settings")
+local tpsection = tptab:NewSection("Teleport players")
+
+tpsection:NewButton("Base", "Teleport you on your base", function()
+	game:GetService("Workspace"):FindFirstChild("Characters"):FindFirstChild(playerName):WaitForChild("HumanoidRootPart").CFrame = game.Workspace.Islands.AirportIsland:FindFirstChild("AirportIsland").CFrame + Vector3.new(0, 7, 0)
+end)
+
+
+playersection:NewSlider("WalkSpeed", "Change the WalkSpeed of your player", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
+	game:GetService("Workspace"):FindFirstChild("Characters"):FindFirstChild(playerName):WaitForChild("Humanoid").WalkSpeed = s
+end)
+
+teleportobbysection:NewButton("CheckPoint 1 ", "Teleport you on obby checkpoint", function()
+	game:GetService("Workspace"):FindFirstChild("Characters"):FindFirstChild(playerName):WaitForChild("HumanoidRootPart").CFrame = game.Workspace.Camera:FindFirstChild("5").Primary.CFrame + Vector3.new(0, 7, 0)
+end)
+teleportobbysection:NewButton("CheckPoint 2 ", "Teleport you on obby checkpoint", function()
+	game:GetService("Workspace"):FindFirstChild("Characters"):FindFirstChild(playerName):WaitForChild("HumanoidRootPart").CFrame = game.Workspace.Camera:FindFirstChild("6").Primary.CFrame + Vector3.new(0, 7, 0)
+end)
+teleportobbysection:NewButton("CheckPoint 3 ", "Teleport you on obby checkpoint", function()
+	game:GetService("Workspace"):FindFirstChild("Characters"):FindFirstChild(playerName):WaitForChild("HumanoidRootPart").CFrame = game.Workspace.Camera:FindFirstChild("7").Primary.CFrame + Vector3.new(0, 7, 0)
+end)
+teleportobbysection:NewButton("CheckPoint 4 ", "Teleport you on obby checkpoint", function()
+	game:GetService("Workspace"):FindFirstChild("Characters"):FindFirstChild(playerName):WaitForChild("HumanoidRootPart").CFrame = game.Workspace.Camera:FindFirstChild("8").Primary.CFrame + Vector3.new(0, 7, 0)
+end)
+teleportobbysection:NewButton("CheckPoint 5 ", "Teleport you on obby checkpoint", function()
+	game:GetService("Workspace"):FindFirstChild("Characters"):FindFirstChild(playerName):WaitForChild("HumanoidRootPart").CFrame = game.Workspace.Camera:FindFirstChild("9").Primary.CFrame + Vector3.new(0, 7, 0)
+end)
+teleportobbysection:NewButton("CheckPoint 6 ", "Teleport you on obby checkpoint", function()
+	game:GetService("Workspace"):FindFirstChild("Characters"):FindFirstChild(playerName):WaitForChild("HumanoidRootPart").CFrame = game.Workspace.Camera:FindFirstChild("10").Primary.CFrame + Vector3.new(0, 7, 0)
+end)
+teleportobbysection:NewButton("CheckPoint 7 ", "Teleport you on obby checkpoint", function()
+	game:GetService("Workspace"):FindFirstChild("Characters"):FindFirstChild(playerName):WaitForChild("HumanoidRootPart").CFrame = game.Workspace.Camera:FindFirstChild("11").Primary.CFrame + Vector3.new(0, 7, 0)
+end)
+teleportobbysection:NewButton("CheckPoint 8 ", "Teleport you on obby checkpoint", function()
+	game:GetService("Workspace"):FindFirstChild("Characters"):FindFirstChild(playerName):WaitForChild("HumanoidRootPart").CFrame = game.Workspace.Camera:FindFirstChild("12").Primary.CFrame + Vector3.new(0, 7, 0)
+end)
+teleportobbysection:NewButton("CheckPoint 9 ", "Teleport you on obby checkpoint", function()
+	game:GetService("Workspace"):FindFirstChild("Characters"):FindFirstChild(playerName):WaitForChild("HumanoidRootPart").CFrame = game.Workspace.Camera:FindFirstChild("13").Primary.CFrame + Vector3.new(0, 7, 0)
+end)
+teleportobbysection:NewButton("CheckPoint 10 ", "Teleport you on obby checkpoint", function()
+	game:GetService("Workspace"):FindFirstChild("Characters"):FindFirstChild(playerName):WaitForChild("HumanoidRootPart").CFrame = game.Workspace.Camera:FindFirstChild("14").Primary.CFrame + Vector3.new(0, 7, 0)
+end)
+teleportobbysection:NewButton("CheckPoint 11 ", "Teleport you on obby checkpoint", function()
+	game:GetService("Workspace"):FindFirstChild("Characters"):FindFirstChild(playerName):WaitForChild("HumanoidRootPart").CFrame = game.Workspace.Camera:FindFirstChild("15").Primary.CFrame + Vector3.new(0, 7, 0)
+end)
+teleportobbysection:NewButton("CheckPoint 12 ", "Teleport you on obby checkpoint", function()
+	game:GetService("Workspace"):FindFirstChild("Characters"):FindFirstChild(playerName):WaitForChild("HumanoidRootPart").CFrame = game.Workspace.Camera:FindFirstChild("16").Primary.CFrame + Vector3.new(0, 7, 0)
+end)
+teleportobbysection:NewButton("CheckPoint 13 ", "Teleport you on obby checkpoint", function()
+	game:GetService("Workspace"):FindFirstChild("Characters"):FindFirstChild(playerName):WaitForChild("HumanoidRootPart").CFrame = game.Workspace.Camera:FindFirstChild("17").Primary.CFrame + Vector3.new(0, 7, 0)
+end)
+teleportobbysection:NewButton("CheckPoint 14 ", "Teleport you on obby checkpoint", function()
+	game:GetService("Workspace"):FindFirstChild("Characters"):FindFirstChild(playerName):WaitForChild("HumanoidRootPart").CFrame = game.Workspace.Camera:FindFirstChild("18").Primary.CFrame + Vector3.new(0, 7, 0)
+end)
+teleportobbysection:NewButton("CheckPoint 15 ", "Teleport you on obby checkpoint", function()
+	game:GetService("Workspace"):FindFirstChild("Characters"):FindFirstChild(playerName):WaitForChild("HumanoidRootPart").CFrame = game.Workspace.Camera:FindFirstChild("19").Primary.CFrame + Vector3.new(0, 7, 0)
+end)
+
+
+autofarmsection:NewToggle("Active", "Active et desactive le script", function(state)
+	if state then
+		local Active = 1
+		repeat
+			game:GetService("Workspace"):FindFirstChild("Characters"):FindFirstChild(playerName):WaitForChild("HumanoidRootPart").CFrame = game.Workspace.Camera:FindFirstChild("5").Primary.CFrame + Vector3.new(0, 7, 0)
+			wait(3)
+			game:GetService("Workspace"):FindFirstChild("Characters"):FindFirstChild(playerName):WaitForChild("HumanoidRootPart").CFrame = game.Workspace.Camera:FindFirstChild("6").Primary.CFrame + Vector3.new(0, 7, 0)			
+			wait(5)
+			game:GetService("Workspace"):FindFirstChild("Characters"):FindFirstChild(playerName):WaitForChild("HumanoidRootPart").CFrame = game.Workspace.Camera:FindFirstChild("7").Primary.CFrame + Vector3.new(0, 7, 0)
+			wait(8)
+			game:GetService("Workspace"):FindFirstChild("Characters"):FindFirstChild(playerName):WaitForChild("HumanoidRootPart").CFrame = game.Workspace.Camera:FindFirstChild("8").Primary.CFrame + Vector3.new(0, 7, 0)
+			wait(6)
+			game:GetService("Workspace"):FindFirstChild("Characters"):FindFirstChild(playerName):WaitForChild("HumanoidRootPart").CFrame = game.Workspace.Camera:FindFirstChild("9").Primary.CFrame + Vector3.new(0, 7, 0)
+			wait(8)
+			game:GetService("Workspace"):FindFirstChild("Characters"):FindFirstChild(playerName):WaitForChild("HumanoidRootPart").CFrame = game.Workspace.Camera:FindFirstChild("10").Primary.CFrame + Vector3.new(0, 7, 0)
+			wait(10)
+			game:GetService("Workspace"):FindFirstChild("Characters"):FindFirstChild(playerName):WaitForChild("HumanoidRootPart").CFrame = game.Workspace.Camera:FindFirstChild("11").Primary.CFrame + Vector3.new(0, 7, 0)
+			wait(13)
+			game:GetService("Workspace"):FindFirstChild("Characters"):FindFirstChild(playerName):WaitForChild("HumanoidRootPart").CFrame = game.Workspace.Camera:FindFirstChild("12").Primary.CFrame + Vector3.new(0, 7, 0)
+			wait(7)
+			game:GetService("Workspace"):FindFirstChild("Characters"):FindFirstChild(playerName):WaitForChild("HumanoidRootPart").CFrame = game.Workspace.Camera:FindFirstChild("13").Primary.CFrame + Vector3.new(0, 7, 0)
+			wait(6)
+			game:GetService("Workspace"):FindFirstChild("Characters"):FindFirstChild(playerName):WaitForChild("HumanoidRootPart").CFrame = game.Workspace.Camera:FindFirstChild("14").Primary.CFrame + Vector3.new(0, 7, 0)
+			wait(6)
+			game:GetService("Workspace"):FindFirstChild("Characters"):FindFirstChild(playerName):WaitForChild("HumanoidRootPart").CFrame = game.Workspace.Camera:FindFirstChild("15").Primary.CFrame + Vector3.new(0, 7, 0)
+			wait(7)
+			game:GetService("Workspace"):FindFirstChild("Characters"):FindFirstChild(playerName):WaitForChild("HumanoidRootPart").CFrame = game.Workspace.Camera:FindFirstChild("16").Primary.CFrame + Vector3.new(0, 7, 0)
+			wait(7)
+			game:GetService("Workspace"):FindFirstChild("Characters"):FindFirstChild(playerName):WaitForChild("HumanoidRootPart").CFrame = game.Workspace.Camera:FindFirstChild("17").Primary.CFrame + Vector3.new(0, 7, 0)
+			wait(7)
+			game:GetService("Workspace"):FindFirstChild("Characters"):FindFirstChild(playerName):WaitForChild("HumanoidRootPart").CFrame = game.Workspace.Camera:FindFirstChild("18").Primary.CFrame + Vector3.new(0, 7, 0)
+			wait(9)
+			game:GetService("Workspace"):FindFirstChild("Characters"):FindFirstChild(playerName):WaitForChild("HumanoidRootPart").CFrame = game.Workspace.Camera:FindFirstChild("19").Primary.CFrame + Vector3.new(0, 7, 0)
+			wait(5)
+		until Active == 0
+
+	else
+		local Active = 0
+	end
+end)
+
+--Rename invisible part
+
+repeat
+	if j == 0 then
+		repeat	
+			j = j + 1
+			game.Workspace.Camera:FindFirstChild("").Name = j
+			wait()
+			print(j)
+		until j == 19
+	end
+until j == 19
+print(j)
