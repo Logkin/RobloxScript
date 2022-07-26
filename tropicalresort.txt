@@ -25,6 +25,11 @@ local teleportobbysection = teleporttab:NewSection("This will teleport you to Te
 local playersection = playertab:NewSection("Change player settings")
 local tpsection = tptab:NewSection("Teleport players")
 
+autofarmsection:NewButton("AutoBuy and AutoCollect", "Cant disable after enabled", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Logkin/LogkinRobloxScriptHub/6db4543055d831d09923cb42fc6fec76c3f31d1d/autobuytropical.txt"))()
+end)
+
+
 tpsection:NewButton("Base", "Teleport you on your base", function()
 	game:GetService("Workspace"):FindFirstChild("Characters"):FindFirstChild(playerName):WaitForChild("HumanoidRootPart").CFrame = game.Workspace.Islands.AirportIsland:FindFirstChild("AirportIsland").CFrame + Vector3.new(0, 7, 0)
 end)
