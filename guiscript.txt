@@ -1,0 +1,12 @@
+if game.PlaceId == 5534174456 then --tropical resort
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Logkin/LogkinRobloxScriptHub/8c81c46db92aa33b289ccb776a483c34207568cc/tropicalresort.txt", true))()
+elseif game.PlaceId == 4101650 then --template
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Logkin/LogkinRobloxScriptHub/8c81c46db92aa33b289ccb776a483c34207568cc/tropicalresort.txt", true))()
+else
+    game.StarterGui:SetCore("SendNotification", {
+    Title = "Game not supported"; -- the title (ofc)
+    Text = "This game is not supported Go see github for the list"; -- what the text says (ofc)
+    --Icon = "rbxassetid://57254792"; -- the image if u want. 
+    Duration = 10; -- how long the notification should in secounds
+    })
+end
