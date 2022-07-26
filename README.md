@@ -1,6 +1,3 @@
-
-
-
 # Roblox Script
 
 This is a script where i put all of Script that I found or that I made for Roblox. 
