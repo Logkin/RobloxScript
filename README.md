@@ -15,3 +15,10 @@ This is a script where i put all of Script that I found or that I made for Roblo
 
 This script work with 100% on KRNL, JJSploit, SynapseX
 
+## Script
+
+Clone the project
+
+```bash
+  loadstringmachin
+```
