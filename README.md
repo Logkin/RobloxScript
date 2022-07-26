@@ -20,5 +20,5 @@ This script work with 100% on KRNL, JJSploit, SynapseX
 Copy and paste this link in your executable
 
 ```bash
-  loadstringmachin
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Logkin/LogkinRobloxScriptHub/91d68f888099fa4becdeee8406a9a9f0b38e271e/guiscript.txt", true))()
 ```
