@@ -14,6 +14,23 @@ This is a script where i put all of Script that I found or that I made for Roblo
 - [Bedwars](https://www.roblox.com/games/6872265039/BedWars-PENGUIN-SURVIVAL)
 - [Big Paintball](https://www.roblox.com/games/3527629287/BIG-Paintball)
 - [Super Power Training Simulator](https://www.roblox.com/games/2202352383/Super-Power-Training-Simulator)
+<<<<<<< Updated upstream
+=======
+- [Trade Tower](https://www.roblox.com/games/5023820864/Trade-Tower)
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+
+>>>>>>> Stashed changes
 
 
 ## 🛠Notes
