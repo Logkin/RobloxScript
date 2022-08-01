@@ -50,6 +50,26 @@ elseif game.PlaceId == 7800644383 then --Untitled Hood GUI
 elseif game.PlaceId == 9183932460 then --Untitled Hood New GUI
     loadstring(game:HttpGet("https://raw.githubusercontent.com/laderite/zenx/main/scripts/Untitled_Hood_New_GUI.lua", true))()
 
+elseif game.PlaceId == 2580982329 then --Texting-Simulator
+    getgenv().mainKey = "nil"
+    local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https://api.eclipsehub.xyz/auth";c(a and b,"Executor not Supported")a(b({Url=e.."?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
+
+elseif game.PlaceId == 920587237 then --adopt me
+    getgenv().mainKey = "nil"
+    local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https://api.eclipsehub.xyz/auth";c(a and b,"Executor not Supported")a(b({Url=e.."?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
+
+elseif game.PlaceId == 537413528 then --Build-A-Boat-For-Treasure
+    getgenv().mainKey = "nil"
+    local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https://api.eclipsehub.xyz/auth";c(a and b,"Executor not Supported")a(b({Url=e.."?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
+
+elseif game.PlaceId == 147848991 then --Be-A-Parkour-Ninja
+    getgenv().mainKey = "nil"
+    local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https://api.eclipsehub.xyz/auth";c(a and b,"Executor not Supported")a(b({Url=e.."?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
+
+elseif game.PlaceId == 142823291 then --Murder-Mystery-2
+    getgenv().mainKey = "nil"
+    local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https://api.eclipsehub.xyz/auth";c(a and b,"Executor not Supported")a(b({Url=e.."?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
+
 
 
 
