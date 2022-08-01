@@ -29,35 +29,16 @@ This is a script where i put all of Script that I found or that I made for Roblo
 - [Tropical Resort Tycoon](https://www.roblox.com/games/5534174456/Tropical-Resort-Tycoon)
 - [Untitled Hood GUI](https://www.roblox.com/games/7800644383/Untitled-Hood)
 - [Untitled Hood New GUI](https://www.roblox.com/games/9183932460/Untitled-Hood)
+- [Work At Pizza Place](https://www.roblox.com/games/192800/Work-at-a-Pizza-Place)
+- [Online Business Simulator 2](https://www.roblox.com/games/5327880096/Online-Business-Simulator-2)
 - []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
+
 
 
 
 ## 🛠Notes
 
-This script work with 100% on KRNL, JJSploit, SynapseX
+This gui work at 100% on KRNL, JJSploit, SynapseX, 
 
 
 ## 🔗Script
