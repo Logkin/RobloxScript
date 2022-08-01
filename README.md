@@ -13,6 +13,7 @@ This is a script where i put all of Script that I found or that I made for Roblo
 - [Roblox Talent Show](https://www.roblox.com/games/10851599/Roblox-Talent-Show)
 - [Bedwars](https://www.roblox.com/games/6872265039/BedWars-PENGUIN-SURVIVAL)
 - [Big Paintball](https://www.roblox.com/games/3527629287/BIG-Paintball)
+- [Super Power Training Simulator](https://www.roblox.com/games/2202352383/Super-Power-Training-Simulator)
 
 
 ## 🛠Notes
