@@ -22,6 +22,9 @@ elseif game.PlaceId == 6872265039 then --Bedwars
 elseif game.PlaceId == 3527629287 then --BigPaintball
 	manque le loadstring encore
 
+elseig game.PlaceId == 2202352383 then -- SuperPowerTrainingSimulator
+    loadstring(game:HttpGet('https://pastebin.com/raw/D9btNZUr', true))()
+
 
 
 
