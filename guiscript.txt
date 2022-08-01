@@ -72,6 +72,7 @@ elseif game.PlaceId == 142823291 then --Murder-Mystery-2
 
 elseif game.PlaceId == 192800 then --Work at pizza place
     loadstring(game:HttpGet("https://pastebin.com/raw/cEwtwKZR",true))()
+    wait(5)
     local steal = loadstring(game:HttpGet("https://pastebin.com/raw/DNtN6W4D"))
     workspace.Main.Chatted.Chatted.Event:Connect(function(msg)
     if msg=="/manager" or msg=="\\manager" then
