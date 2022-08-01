@@ -1,6 +1,6 @@
 # Roblox Script
 
-This is a script where i put all of Script that I found or that I made for Roblox. 
+This is a script where i put all of Script that I found or that I made for Roblox. Some can from other Hub like EclypseHub for [Murder Mystery 2](https://www.roblox.com/games/142823291/Murder-Mystery-2)
 
 
 
@@ -11,7 +11,7 @@ This is a script where i put all of Script that I found or that I made for Roblo
 - [Age of Heroes](https://www.roblox.com/games/4866692557/Age-of-Heroes)
 - [Be A Parkour Ninja](https://www.roblox.com/games/147848991/Be-A-Parkour-Ninja)
 - [Bedwars](https://www.roblox.com/games/6872265039/BedWars-PENGUIN-SURVIVAL)
-- [Big Paintball](https://www.roblox.com/games/3527629287/BIG-Paintball)
+- [Big Paintball](https://www.roblox.com/games/3527629287/BIG-Paintball) Not working
 - [Build A Boat For Treasure](https://www.roblox.com/games/537413528/Build-A-Boat-For-Treasure)
 - [Demon Soul](https://www.roblox.com/games/8069117419/UPD3-4-Demon-Soul-Simulator)
 - [Driving Empire](https://www.roblox.com/games/3351674303/BIG-UPDATE-Driving-Empire)
