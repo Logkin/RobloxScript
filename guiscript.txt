@@ -1,57 +1,54 @@
-local url = "https://raw.githubusercontent.com/laderite/zenx/main/scripts"
-
-local games = {
-    [5023820864] = "Trade Tower";
-    [4866692557] = "Age of Gays";
-    [2990100290] = "RPG Simulator"; -- world 1
-    [4628853904] = "RPG Simulator"; -- world 2
-    [8328351891] = "Mega Mansion Tycoon";
-    [7424863999] = "Super Hero VS God Tycoon";
-    [8069117419] = "Demon Soul";
-    [7180042682] = "Military Tycoon";
-    [7800644383] = "Untitled Hood GUI";
-    [9183932460] = "Untitled Hood New GUI";
-}
-
-for i,v in next, games do
-    games[i] = table.concat(v:split(' '), '_')
-end
-
-local name = games[game.PlaceId] or games[game.GameId]
-return loadstring(game:HttpGet(url.. "/"..(name)..".lua"))()
-
 if game.PlaceId == 5534174456 then --tropical resort
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Logkin/LogkinRobloxScriptHub/8c81c46db92aa33b289ccb776a483c34207568cc/tropicalresort.txt", true))()
-
 
 elseif game.PlaceId == 3351674303 then --Driving empire
 	_G.Theme = Dark
     loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/DrivingEmpire.lua"))()
 
-
 elseif game.PlaceId == 9281034297 then --GoalKickSimulator
     loadstring(game:HttpGet("https://raw.githubusercontent.com/insanedude59/Scripts/main/GoalKickSimulator"))()
-
 
 elseif game.PlaceId == 10851599 then --Roblox talent show
     loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/richie0866/MidiPlayer/main/package.lua"))()
 
-
 elseif game.PlaceId == 6872265039 then --Bedwars
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))() 
-
 
 elseif game.PlaceId == 3527629287 then --BigPaintball
 	manque le loadstring encore
 
-elseig game.PlaceId == 2202352383 then -- SuperPowerTrainingSimulator
+elseif game.PlaceId == 2202352383 then -- SuperPowerTrainingSimulator
     loadstring(game:HttpGet('https://pastebin.com/raw/D9btNZUr', true))()
 
+elseif game.PlaceId == 7180042682 then --Military tycoon
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/thedragonslayer2/Key-System/main/Load.lua")()
 
+elseif game.PlaceId == 8069117419 then --Demon Soul
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/laderite/zenx/main/scripts/Demon_Soul.lua")()
 
+elseif game.PlaceId == 5023820864 then --Trade Tower
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/laderite/zenx/main/scripts/Trade_Tower.lua")()
 
+elseif game.PlaceId == 4866692557 then --Age Of Gays
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/laderite/zenx/main/scripts/Age_of_Gays.lua", true))()
 
+elseif game.PlaceId == 2990100290 then --RPG Simulator world 1
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/laderite/zenx/main/scripts/RPG_Simulator.lua", true))()
 
+elseif game.PlaceId == 4628853904 then --RPG Simulator world 2
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/laderite/zenx/main/scripts/RPG_Simulator.lua", true))()
+
+elseif game.PlaceId == 8328351891 then --Mega Mansion Tycoon
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/laderite/zenx/main/scripts/Mega_Mansion_Tycoon.lua", true))()
+
+elseif game.PlaceId == 7424863999 then --Super Hero VS God Tycoon
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/laderite/zenx/main/scripts/Super_Hero_VS_God_Tycoon.lua", true))()
+
+elseif game.PlaceId == 7800644383 then --Untitled Hood GUI
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/laderite/zenx/main/scripts/Untitled_Hood_GUI.lua", true))()
+
+elseif game.PlaceId == 9183932460 then --Untitled Hood New GUI
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/laderite/zenx/main/scripts/Untitled_Hood_New_GUI.lua", true))()
 
 
 
@@ -62,6 +59,10 @@ elseig game.PlaceId == 2202352383 then -- SuperPowerTrainingSimulator
 
 elseif game.PlaceId == 4101650 then --template
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Logkin/LogkinRobloxScriptHub/8c81c46db92aa33b289ccb776a483c34207568cc/tropicalresort.txt", true))()
+
+
+
+
 else
     game.StarterGui:SetCore("SendNotification", {
     Title = "Game not supported"; -- the title (ofc)
