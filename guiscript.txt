@@ -1,0 +1,50 @@
+if game.PlaceId == 5534174456 then --tropical resort
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Logkin/LogkinRobloxScriptHub/8c81c46db92aa33b289ccb776a483c34207568cc/tropicalresort.txt", true))()
+
+
+elseif game.PlaceId == 3351674303 then --Driving empire
+	_G.Theme = Dark
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/DrivingEmpire.lua"))()
+
+
+elseif game.PlaceId == 9281034297 then --GoalKickSimulator
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/insanedude59/Scripts/main/GoalKickSimulator"))()
+
+
+elseif game.PlaceId == 10851599 then --Roblox talent show
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/richie0866/MidiPlayer/main/package.lua"))()
+
+
+elseif game.PlaceId == 6872265039 then --Bedwars
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))() 
+
+
+elseif game.PlaceId == 3527629287 then --BigPaintball
+	manque le loadstring encore
+
+elseig game.PlaceId == 2202352383 then -- SuperPowerTrainingSimulator
+    loadstring(game:HttpGet('https://pastebin.com/raw/D9btNZUr', true))()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+elseif game.PlaceId == 4101650 then --template
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Logkin/LogkinRobloxScriptHub/8c81c46db92aa33b289ccb776a483c34207568cc/tropicalresort.txt", true))()
+else
+    game.StarterGui:SetCore("SendNotification", {
+    Title = "Game not supported"; -- the title (ofc)
+    Text = "This game is not supported Go see github for the list"; -- what the text says (ofc)
+    --Icon = "rbxassetid://57254792"; -- the image if u want. 
+    Duration = 10; -- how long the notification should in secounds
+    })
+end
