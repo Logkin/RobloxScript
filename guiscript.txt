@@ -84,9 +84,8 @@ elseif game.PlaceId == 5327880096 then --Online Business Simulator 2
     while wait(.001)do local a=game:GetService("ReplicatedStorage").Events.StartInvest;a:FireServer()end
 
 
-
-
-
+elseif game.PlaceId == 10108131074 then --Mow-The-Lawn-Simulator
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Pikaruru/Scripts/main/loadstringloaderyes.lua"))()
 
 
 
