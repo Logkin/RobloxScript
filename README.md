@@ -33,6 +33,8 @@ This is a script where i put all of Script that I found or that I made for Roblo
 - [Online Business Simulator 2](https://www.roblox.com/games/5327880096/Online-Business-Simulator-2)
 - [Mow The Lawn Simulator](https://www.roblox.com/games/10108131074/UPD-2-Mow-The-Lawn-Simulator)
 - [Broken Bones IV](https://www.roblox.com/games/2551991523/Broken-Bones-IV)
+- [Car Crusher 2](https://www.roblox.com/games/654732683/Car-Crushers-2)
+- [Destruction Simulator](https://www.roblox.com/games/2248408710/Destruction-Simulator)
 
 
 

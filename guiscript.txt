@@ -90,7 +90,47 @@ elseif game.PlaceId == 10108131074 then --Mow-The-Lawn-Simulator
 elseif game.PlaceId == 2551991523 then --Broken-Bones-IV
     loadstring(game:HttpGet("https://pastebin.com/raw/KSUnUNqx", true))()
 
+elseif game.PlaceId == 654732683 then --Car Crusher
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/saucekid/scripts/main/CarCrushers.lua"))()
 
+elseif game.PlaceId == 2248408710 then --Destruction Simulator
+    game:GetService("ReplicatedStorage").Remotes.generateBoost:FireServer("Coins", 480, 99999999)
+    wait(1)
+    game:GetService("ReplicatedStorage").Remotes.generateBoost:FireServer("Coins", 480, 99999999)
+    wait(1)
+    game:GetService("ReplicatedStorage").Remotes.generateBoost:FireServer("Coins", 480, 99999999)
+    wait(1)
+    game:GetService("ReplicatedStorage").Remotes.generateBoost:FireServer("Coins", 480, 99999999)
+    wait(1)
+    game:GetService("ReplicatedStorage").Remotes.generateBoost:FireServer("Levels", 480, 10)
+    wait(1)
+    game:GetService("ReplicatedStorage").Remotes.generateBoost:FireServer("Levels", 480, 10)
+    wait(1)
+    game:GetService("ReplicatedStorage").Remotes.generateBoost:FireServer("Levels", 480, 10)
+    wait(1)
+    game:GetService("ReplicatedStorage").Remotes.generateBoost:FireServer("Levels", 480, 10)
+    wait(1)
+    game:GetService("ReplicatedStorage").Remotes.generateBoost:FireServer("Levels", 480, 10)
+    wait(1)
+    game:GetService("ReplicatedStorage").Remotes.generateBoost:FireServer("Levels", 480, 10)
+    wait(1)
+    getgenv().autofarm = false
+    getgenv().on = true
+    game.StarterGui:SetCore("SendNotification", {
+    Title = "For AutoFarm"; -- the title (ofc)
+    Text = "type getgenv().autofarm = true for start it and for make stop change true by false "; -- what the text says (ofc)
+    --Icon = "rbxassetid://57254792"; -- the image if u want. 
+    Duration = 60; -- how long the notification should in secounds
+    })
+    local function coinslol()
+       while wait() and getgenv().autofarm == true do
+           game:GetService("ReplicatedStorage").Remotes.generateBoost:FireServer("Coins", 480, 99999999)
+           game:GetService("ReplicatedStorage").Remotes.generateBoost:FireServer("Levels", 480, 10)
+       end
+    end
+    while wait(0) and getgenv().on == true do
+       coinslol()
+    end
 
 
 
