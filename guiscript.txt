@@ -1,5 +1,8 @@
 if game.PlaceId == 5534174456 then --tropical resort
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Logkin/LogkinRobloxScriptHub/8c81c46db92aa33b289ccb776a483c34207568cc/tropicalresort.txt", true))()
+    
+elseif game.PlaceId == 12533625712 then --moto simulator
+    loadstring(game:HttpGet("https://pastebin.com/raw/K7vg5Z5V"))()
 
 elseif game.PlaceId == 3351674303 then --Driving empire
     _G.Theme = Dark
