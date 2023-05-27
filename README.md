@@ -7,6 +7,10 @@ This is a script where i put all of Script that I found or that I made for Roblo
 
 ## 🚀List of game supported :
 
+NEW !!!
+
+- [Motorcycle Mayhem](https://www.roblox.com/games/12533625712)
+
 - [Adopt Me](https://www.roblox.com/games/920587237/Adopt-Me)
 - [Age of Heroes](https://www.roblox.com/games/4866692557/Age-of-Heroes)
 - [Be A Parkour Ninja](https://www.roblox.com/games/147848991/Be-A-Parkour-Ninja)
