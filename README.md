@@ -21,5 +21,5 @@ This was tested with Fluxus on Roblox Microsoft Version Windwos 10
 Copy and paste this link in your executable
 
 ```bash
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Logkin/LogkinRobloxScriptHub/main/guiscript.txt"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Logkin/RobloxScript/main/guiscript.txt"))()
 ```
