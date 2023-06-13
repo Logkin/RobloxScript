@@ -1,11 +1,1 @@
-if game.PlaceId == 12533625712 then --tropical resort
-    loadstring(game:HttpGet("https://pastebin.com/raw/BBpFHqv5"))()
 
-else
-    game.StarterGui:SetCore("SendNotification", {
-    Title = "Game not supported"; -- the title (ofc)
-    Text = "Maybe wrong game or script "; -- what the text says (ofc)
-    --Icon = "rbxassetid://57254792"; -- the image if u want. 
-    Duration = 20; -- how long the notification should in secounds
-    })
-end
